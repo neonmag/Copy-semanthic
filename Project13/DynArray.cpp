@@ -16,7 +16,7 @@ DynArray::DynArray() // Constructor by default
 
 DynArray::DynArray(int size) // Constructor with entering size
 {
-	if (this->arr != nullptr)
+	if (this->arr != nullptr) // Checked
 	{
 		delete[]this->arr;
 	}
